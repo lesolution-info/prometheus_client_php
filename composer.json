@@ -55,5 +55,6 @@
             "phpstan/extension-installer": true
         }
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "version": "1.1"
 }
