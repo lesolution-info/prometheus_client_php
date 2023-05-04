@@ -57,7 +57,7 @@ class Redis implements Adapter
     public function __construct(array $options = [])
     {
         $this->options = array_merge(self::$defaultOptions, $options);
-        $this->redis = new \Redis();
+        $this->redis = \Illuminate\Support\Facades\Redis::client();
     }
 
     /**
